@@ -1,0 +1,9 @@
+{
+  "serviceName": "web-music",
+  "functionNames": [
+    "web-music/web-music"
+  ],
+  "domains": [
+    "web-music.web-music.1751396395242746.cn-beijing.fc.devsapp.net"
+  ]
+}

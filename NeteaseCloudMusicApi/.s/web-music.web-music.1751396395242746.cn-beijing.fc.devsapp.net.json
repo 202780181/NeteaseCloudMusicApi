@@ -1,0 +1,32 @@
+{
+  "domainName": "web-music.web-music.1751396395242746.cn-beijing.fc.devsapp.net",
+  "accountId": "1751396395242746",
+  "protocol": "HTTP",
+  "certConfig": {
+    "certName": null,
+    "privateKey": null,
+    "certificate": null
+  },
+  "tlsConfig": {
+    "minVersion": null,
+    "maxVersion": null,
+    "cipherSuites": null
+  },
+  "apiVersion": "2016-08-15",
+  "routeConfig": {
+    "routes": [
+      {
+        "path": "/*",
+        "accountId": null,
+        "serviceName": "web-music",
+        "functionName": "web-music",
+        "qualifier": null,
+        "methods": [
+          "GET"
+        ]
+      }
+    ]
+  },
+  "createdTime": "2022-08-05T02:24:03Z",
+  "lastModifiedTime": "2022-08-05T02:24:03Z"
+}
