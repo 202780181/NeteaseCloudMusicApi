@@ -32,7 +32,7 @@ services:
         caPort: 3000
       triggers:
         - name: httpTrigger
-          type: http
+          type: https
           config:
             authType: anonymous
             methods:
