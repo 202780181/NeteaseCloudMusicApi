@@ -40,6 +40,6 @@ services:
               - POST
       customDomains:
         - domainName: auto
-          protocol: HTTP
+          protocol: HTTPS
           routeConfigs:
             - path: /*
