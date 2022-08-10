@@ -7,5 +7,6 @@ async function app() {
     checkVersion: true,
   })
 }
+app()
 
 module.exports = app
