@@ -24,7 +24,7 @@ services:
       function:
         name: "web-music"
         description: 'Serverless Devs Web Framework Function'
-        runtime: nodejs14
+        runtime: nodejs16
         codeUri: ./
         handler: index.handler
         memorySize: 256
