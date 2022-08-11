@@ -32,7 +32,7 @@ services:
         caPort: 3000
       triggers:
         - name: httpTrigger
-          type: https
+          type: http
           config:
             authType: anonymous
             methods:
@@ -40,6 +40,6 @@ services:
               - POST
       customDomains:
         - domainName: auto
-          protocol: HTTPS
+          protocol: HTTP
           routeConfigs:
             - path: /*
